@@ -1,0 +1,32 @@
+.carousel-item img{
+    height: 400px;       /* set fixed height */
+    width: 100%;
+    object-fit: cover;   /* maintain image ratio */
+}
+ .navbar {
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(10px);
+  position: relative;
+  z-index: 1000;
+}
+.nav-link:hover {
+  color: #0d6efd !important;
+}
+.dropdown-menu {
+  z-index: 2000;
+}
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay */
+}
+.carousel-caption {
+  color: #fff;
+}
+section p {
+  line-height: 1.7;
+}

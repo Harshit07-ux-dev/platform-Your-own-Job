@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap one</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg " style="background-color: lightskyblue;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="job.jpeg" width="80px;" height="60px" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link" href="#">contact us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">FAQ</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">About Us</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- slider -->
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="untitled1.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>AI ENGINEERS</h5>
+        <p>Opportunites for ai engineer and ai developers</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="untitled2.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>SOFTWARE ENGINEER</h5>
+        <p>opportunites for software engineer and software developers</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="untitled3.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block ">
+        <h5>INTERNSHIPS</h5>
+        <p>opportunites for freshers and new opportunites for them</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+ 
+<div class="container-fluid">
+    <!-- tagline -->
+     <div class="row">
+        <div class="col-12">
+<section class="py-5 bg-light">
+  <div class="container text-center">
+    
+    <h2 class="fw-bold mb-3">Welcome to <span class="text-primary">Your Own Job</span></h2>
+    
+    <p class="lead text-muted mx-auto" style="max-width: 800px;">
+      A dedicated platform connecting talented individuals with top opportunities in 
+      <strong>AI Engineering</strong>, <strong>Software Development</strong>, and <strong>Coding</strong>.
+    </p>
+
+    <p class="text-muted mx-auto" style="max-width: 900px;">
+      Whether you are a beginner exploring coding, a student searching for internships, 
+      or an experienced developer aiming for top tech roles, we provide curated job listings 
+      and resources tailored to your skills and goals.
+    </p>
+
+    <a href="#" class="btn btn-primary mt-3 px-4">Explore Jobs</a>
+
+  </div>
+</section>
+        </div>
+     </div>
+<!-- feature -->
+ <div class="row justify-content-between pt-3 pb-3">
+  <div class="col-md-3 text-center mt-5">
+   <h1><i class="bi bi-briefcase-fill text-primary"></i></h1>
+    <h5>Find Jobs</h5>
+    <p>
+Discover the latest job openings in AI Engineering, Software Development, and Web Development. Filter jobs based on your skills, experience, and preferred location.
+    </p>
+  </div>
+  <div class="col-md-3 text-center mt-5">
+    <h1><i class="bi bi-gear-wide-connected text-danger"></i></h1>
+    <h5>Learn & Grow</h5>
+    <p>Access curated resources, coding practice, and interview preparation to upgrade your skills and stay ahead in the tech industry.
+    </p>
+  </div>
+  <div class="col-md-3 text-center mt-5">
+    <h1><i class="bi bi-lightbulb-fill text-warning"></i></h1>
+    <h5>Hire Talent</h5>
+    <p>Connect with skilled developers and engineers. Post job openings and find the right candidates for your organization
+    </p>
+
+  </div>
+ </div>
+
+<!-- line -->
+ <hr>
+
+ <!-- growth -->
+  <div class="row justify-content-evenly pt-3 pb-5">
+    <div class="col-md-5 pt-3">
+      <img src="growth.jfif" class="img-fluid" alt="" width="500px" height="250px">
+    </div>
+    <div class="col-md-5 pt-3">
+      <h5 class="mt-3">Website Development Job</h5>
+      <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar bg-success" style="width: 25%"></div>
+</div>
+<h5 class="mt-3">AI Engineer Job</h5>
+<div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar bg-info" style="width: 50%"></div>
+</div>
+<h5 class="mt-3">software Developer Job</h5>
+<div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar bg-warning" style="width: 75%"></div>
+</div>
+<h5 class="mt-3">Internship</h5>
+<div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar bg-danger" style="width: 100%"></div>
+</div>
+
+    </div>
+  </div>
+  <!-- contact -->
+   <div class="row justify-content-evenly  pt-3 pb-5" style="background-color: #f1f1f1;">
+    <div class="col-md-5 mt-5">
+      <h4 class="mb-4">Contact Form</h4>
+
+      <form>
+  <div class="mb-3">
+    <label for="name" class="form-label">Full name</label>
+    <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+    </div>
+  <div class="mb-3 ">
+        <label for="name" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="name" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+    </div>
+    <div class="col-md-5 mt-5">
+      <h3 class="mb-4">Address</h3>
+      <p> your own job will provide different jobs opportunities all over India you can contact us <br>
+        pune <br>
+        <i class="bi bi-telephone-fill"></i> : 9860745732
+      </p>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14873002.901419654!2d74.17944425594172!3d24.48184539916437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1776956546929!5m2!1sen!2sin" style="width:100%;" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+   </div>
+
+   <!-- faq -->
+    <div class="row justify-content-evenly pt-5 pb-5">
+      <div class="col-md-10">
+        <h4 class="text-center pb-5">FAQ</h4>
+        <div class="accordion accordion-flush border" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        How do I apply for jobs?
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">You can browse available jobs  You’ll have to fill the application page where you can submit your details and resume.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+       Are the jobs verified?
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+Yes, we ensure that all job listings are verified and posted by trusted companies and recruiters.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        How can companies post jobs?
+
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+Companies can register on our platform and post job openings to connect with skilled developers and engineers..</div>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+    <!-- footer -->
+     <div class="row justify-content-evenly bg-dark text-white pt-2 pb-5">
+
+      <div class="col-md-3 pt-4">
+        <h4 class="pb-2">About Us</h4>
+        <p>
+We are a platform dedicated to connecting developers, AI engineers, and software professionals with top job         opportunities. Our goal is to simplify job searching and help you build a successful tech career.
+        </p>
+      </div>
+      <div class="col-md-3 pt-4">
+        <h4 class="pb-2"> Important link</h4>
+        <p> <a class="nav-link" href="#">Home</a>
+        <p> <a class="nav-link" href="#">Job</a>
+        <p> <a class="nav-link" href="#">Internship</a>
+        <p> <a class="nav-link" href="#">Contact us</a>
+        <p> <a class="nav-link" href="#">About us</a>
+
+        </p>
+      </div >
+      <div class="col-md-3 pt-4">
+        <h4 class="pb-2">Contact Info</h4>
+      <p>
+     📍 Nashik, India <br>
+      📧 support@yourwebsite.com<br>
+        <i class="bi bi-telephone-fill"></i> : +91 98765 43210 
+      </p>
+
+
+      </div>
+
+     </div>
+
+     <!-- copyright -->
+      <div class="row bg-secondary text-white text-center p-2">
+        <div class="col-md-12">
+          <p>Copyright 1992-2001 Your Own Job All right is reserved</p>
+        </div>
+      </div>
+
+ <!-- container-end -->
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
